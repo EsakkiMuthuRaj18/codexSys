@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    outline: none;
+    margin: 2px;
+}
