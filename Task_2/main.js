@@ -13,10 +13,11 @@ buttons.map(button =>{
                 }
                 break;
             case '=':
+
                 try{
                     result.innerText = eval(result.innerText).toFixed(15);
                 }catch{
-                    result.innerText = 'Invalid Expression';
+                    result.innerText = 'Math Error!';
                 }
                 break;
                 case '%':
@@ -36,3 +37,8 @@ function percentage(num)
   return (num/100);
 }
           
+const re =0;
+
+function test(s) {
+  "%s is valid? %s", s, re.test(s);
+}
